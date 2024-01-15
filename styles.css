@@ -33,6 +33,7 @@ h1 {
     height: 250px;
     text-align: center;
     padding-top: 15px;
+    flex: 1;
 }
 
 .card:hover {
@@ -45,6 +46,11 @@ h1 {
   }
 
 .cardwrapper {
-    border: 2px #000000;
-    border-style: solid
+    border: 1px #000000;
+    border-style: solid;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px
+    flex-shrink: 0;
+    
 }
